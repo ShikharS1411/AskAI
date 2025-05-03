@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import Reducers from "./reducers";
-import Chat from "./chatbot/Chat";
+// import Chat from "./chatbot/Chat";
 
 const store = createStore(Reducers, compose(applyMiddleware(thunk)));
 
@@ -18,7 +18,7 @@ root.render(
   <Provider store={store}>
     <React.StrictMode>
       <App />
-      <Chat />
+      {/* <Chat /> */}
     </React.StrictMode>
   </Provider>
 );

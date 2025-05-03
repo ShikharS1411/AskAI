@@ -149,8 +149,9 @@ const QuestionsDetails = () => {
                                 <section className='post-ans-container'>
                                     <h3>Your Answer</h3>
                                     <form onSubmit={ (e) => { handlePostAns(e, question.answer.length) }}>
+                                        
                                         <textarea name="" id="" cols="30" rows="10" onChange={e => setAnswer(e.target.value)}></textarea><br />
-                                        <input type="Submit" className='post-ans-btn' value='Post Your Answer'/>
+                                        <button type="submit" className="post-ans-btn">Post Your Answer</button>
                                     </form>
                                     <p>
                                         Browse other Question tagged
