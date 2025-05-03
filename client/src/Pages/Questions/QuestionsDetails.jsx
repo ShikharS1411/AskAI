@@ -66,9 +66,12 @@ const QuestionsDetails = () => {
             if(Answer === ''){
                 alert('Enter an answer before submitting')
             } else{
+                console.log(Answer)
                 dispatch(postAnswer({ id, noOfAnswers: answerLength + 1, answerBody: Answer, userAnswered: User.result.name }))
                 setAnswer('')
-                window.location.reload()
+                setTimeout(() => {
+                    window.location.reload()
+                }, 500)
             }
         }
     }
