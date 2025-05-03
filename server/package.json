@@ -8,7 +8,6 @@
   },
   "author": "Shikhar Sharma",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "@vercel/node": "^5.1.15",
     "bcryptjs": "^2.4.3",
