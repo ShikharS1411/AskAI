@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "Chhatresh Khatri",
+  "author": "Shikhar Sharma",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
